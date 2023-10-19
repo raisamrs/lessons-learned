@@ -45,7 +45,12 @@
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
     "function-whitespace-after": "always",
-    "indentation": null,
+    "indentation": [
+      2,
+      {
+        "baseIndentLevel": 1
+      }
+    ],
     "keyframe-declaration-no-important": true,
     "length-zero-no-unit": true,
     "linebreaks": "unix",
