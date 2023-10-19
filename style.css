@@ -1,11 +1,12 @@
 body {
     background-color: rgb(253, 251, 251);
+
 }
 
 #cabecalho {
     width: 100%;
     border-bottom: 3px solid rgb(131, 125, 125);
-    top: 0px;
+    top: 0;
     margin-bottom: 10px;
     text-align: center;
     position: fixed;
