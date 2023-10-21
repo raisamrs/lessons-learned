@@ -45,18 +45,27 @@ td , th {
   text-align: center;
 }
 
-.lado-esquerdo , .lado-direito {
-  display: inline-flexbox;
-  width: 50%;
-}
-
-/* .lado-esquerdo {
-  position: relative;
-  z-index: 2;
-}
 
 .lado-direito {
   position: relative;
-  left: 6h;
-  z-index: 1;
-} */
+  display: inline;
+  float: right;
+  width: 40%;
+  margin-top: -400px;
+  margin-left: 1100px;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  position: relative;
+  float: left;
+  display: inline;
+  width: 40%;
+  margin-top: 600px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#rodape {
+  margin-top: 800px;
+}
