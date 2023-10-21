@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Hind+Siliguri:wght@300&family=Space+Mono&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
-
+  font-family: Space Mono, monospace;
+  color: rgb(187, 62, 3);
+  font-size: 20px;
+  line-height: 40px;
 }
 
 #cabecalho {
@@ -26,3 +31,32 @@ body {
 article {
   margin-top: 140px;
 }
+
+#tabela {
+  border-collapse: collapse;
+}
+
+tr , th , td {
+  border: 3px solid rgb(158, 152, 152);
+}
+
+td , th {
+  padding: 5px;
+  text-align: center;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-flexbox;
+  width: 50%;
+}
+
+/* .lado-esquerdo {
+  position: relative;
+  z-index: 2;
+}
+
+.lado-direito {
+  position: relative;
+  left: 6h;
+  z-index: 1;
+} */
